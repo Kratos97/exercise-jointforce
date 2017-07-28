@@ -1,0 +1,359 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-size: 12px;
+    font-family: "Microsoft Yahei","Helvetica Neue",Helvetica,Arial,Tahoma,sans-serif;
+}
+img{
+	border: 0;
+}
+a{
+	text-decoration: none;
+}
+ul,ol,li{
+	list-style: none;
+}
+header{
+	width: 990px;
+	height: 41px;
+	/*background-color: #888888;*/
+	margin: 0 auto;
+	padding: 30px 0 0 0;
+}
+header .r_header_logo{
+	width: 140px;
+	height: 38px;
+	background: url(../img/indeximg.png);
+	margin-top: -10px;
+	cursor: pointer;
+	float: left;
+}
+header .r_header_title{
+	font-size: 18px;
+	color: #a6a6a6;
+	float: left;
+	margin-left: 10px;
+	margin-top: -3px;
+}
+header span{
+	float: right;
+}
+header span a{
+	color: #5f97d8;
+}
+header span a:hover{
+	text-decoration: underline;
+}
+article{
+	width: 1190px;
+    margin: 0 auto;
+}
+article .article_container{
+	padding: 35px 100px 0;
+	background: url(../img/regbg.png) no-repeat center top;
+	width: 990px;
+	height: 538px;
+	
+}
+article .article_container .article_top{
+	width: 100%;
+    border-bottom: 2px solid #e6e6e6;
+    height: 36px;
+    line-height: 36px;
+    margin-bottom: 35px;
+    /*background-color: #5F97D8;*/
+}
+article .article_container .article_top ul{
+	margin-left: 22px;
+}
+article .article_container .article_top ul li.now{
+	color: #000;
+    border-bottom: 2px solid #33b095;
+    float: left;
+    font-size: 16px;
+    width: 150px;
+    margin-left: 44px;
+    text-align: center;
+}
+article .article_container .article_top ul li{
+	color: #a1a1a1;
+    float: left;
+    font-size: 16px;
+    width: 150px;
+    margin-left: 44px;
+    text-align: center;
+}
+
+article .article_container .article_top ul li.now span{
+	width: 27px;
+	height: 27px;
+	border-radius: 50%;
+	background: #33b095;
+	display:inline-block;
+    color: #fff;
+    margin-right: 10px;
+    line-height: 28px;
+}
+article .article_container .article_top ul li span{
+	width: 27px;
+	height: 27px;
+	border-radius: 50%;
+	background: #CCCCCC;
+	display:inline-block;
+    color: #fff;
+    margin-right: 10px;
+    line-height: 27px;
+}
+article .article_container .article_left{
+	width: 692px;
+	height: 435px;
+	border-bottom: 30px;
+}
+article .article_container .article_left .control_group{
+	position: relative;
+	padding: 10px 0;
+	width: 695px;
+	height: 38px;
+	/*background-color: #1DD2AD;*/
+}
+article .article_container .article_left .control_group .formLaber{
+	width: 80px;
+	height: 30px;
+	padding: 3px 7px 0 0;
+	margin-left: 21px;
+	color: #717171;
+	font-size: 14px;
+	text-align: right;
+	line-height: 30px;
+	padding-right: 0.5em;
+	padding-top:4px;
+	float: left;
+}
+article .article_container .article_left .control_group .formLaber font{
+	padding-right: 3px;
+	color: rgb(241, 66, 60);
+	/*background-color: #CCCCCC;*/
+}
+article .article_container .article_left .control_group .selectArea{
+	width: 102px;
+	height: 28px;
+	line-height: 28px;
+	padding: 4px 6px;
+	margin-right: 1em;
+	background: #ededed;
+	border-radius: 4px;
+	border: 1px solid #d5d5d5;
+	float: left;
+	text-align: center;
+	color: #717171;
+	font-size: 13px;
+}
+article .article_container .article_left .control_group .selectArea i{
+	display: inline-block;
+	width: 7px;
+	height: 4px;
+	background: url(../img/selectDown.png);
+	margin-left: 7px;
+	/*margin-top: -1px;*/
+	vertical-align: middle;
+}
+article .article_container .article_left .control_group .phoneNum{
+	width: 107px;
+	height: 28px;
+	border: 1px solid #d5d5d5;
+	border-radius: 4px;
+	padding: 4px 6px;
+	/*float: left;*/
+	line-height: 28px;
+	/*vertical-align: top;*/
+}
+article .article_container .article_left .control_group .formErrow{
+	/*width: 156px;*/
+	height: 32px;
+	margin-left: 1em;
+	display: none;
+	/*background-color: red;*/
+	vertical-align: top;
+	/*position:relative;*/
+}
+article .article_container .article_left .control_group .errow_phoneNum{
+	display:inline-block;
+}
+article .article_container .article_left .control_group .formErrow em{
+	display: inline-block;
+	width: 6px;
+	height: 9px;
+	background: url(../img/kvalidata.png) no-repeat -22px -12px;
+	vertical-align: top;
+	position:relative;
+	top: 8px;
+	left: 1px;
+}
+article .article_container .article_left .control_group .formErrow div{
+	display: inline-block;
+	padding: 6px 10px 6px 30px;
+	background: #ffebeb url(../img/kvalidata_wrong.png) no-repeat 10px 9px;
+	color: red;
+	border: 1px solid #fac5c5;
+	line-height: 1.5em;
+	font-size: 12px;
+	border-radius: 3px;
+}
+article .article_container .article_left .control_group .imgCode,.soundCode{
+	width: 116px;
+	height: 28px;
+    border: 1px solid rgb(213, 213, 213);
+    display: inline-block;
+    margin-right: .5em;
+    line-height: 28px;
+    padding: 4px 6px;
+    float: left;
+    border-radius: 4px;
+    font-size: 13px;
+    color: #555;
+}
+article .article_container .article_left .control_group span{
+	cursor: pointer;
+    margin-left: 0.5em;
+    float: left;
+}
+article .article_container .article_left .control_group span img{
+	height: 37px;
+    border-radius: 2px;
+}
+article .article_container .article_left .control_group span.getSoundCode{
+	display: inline-block;
+    padding: 10px;
+    border: 1px solid #ddd;
+    background: #f4f4f4;
+    border-radius: 2px;
+    color: #525252;
+    width: 85px;
+    text-align: center;
+}
+article .article_container .article_left .imgCode_prompt span{
+	margin-left: 243px;
+	width: 190px;
+    display: inline-block;
+    color: #d0d0d0;
+    padding-left: 1em;
+}
+article .article_container .article_left .imgCode_prompt span a{
+	color: #08a0e6;
+}
+article .article_container .article_left .control_group .password{
+	display: inline-block;
+    border: 1px solid rgb(213, 213, 213);
+    background: url(../img/icon_reg_psw.png) no-repeat 226px 8px;
+    width: 235px;
+    height: 28px;
+    line-height: 28px;
+    padding: 4px 6px;
+    float: left;
+    box-shadow: none;
+    border-radius: 4px;
+}
+article .article_container .article_left .control_group .password_prompt{
+	width: 357px;
+	height: 18px;
+}
+article .article_container .article_left .control_group .password_prompt .password_level{
+	float: right;
+}
+article .article_container .article_left .control_group .password_prompt .password_level li{
+	background: none repeat scroll 0 0 #dcdcdc;
+    color: #fff;
+    float: left;
+    height: 18px;
+    line-height: 18px;
+    text-align: center;
+    width: 30px;
+    margin-right: 2px;
+}
+article .article_container .article_left .control_group .password_prompt .password_level li:last-child{
+	margin-right: 0px;
+}
+
+.clear{
+	visibility: hidden;
+    display: block;
+    font-size: 0;
+    clear: both;
+    height: 0;
+}
+.height8{
+	height: 8px;
+}
+article .article_container .article_left .control_group .password_prompt span{
+	display: inline-block;
+    line-height: 18px;
+    color: gray;
+    margin-right: 1px;
+    float: right;
+}
+article .article_container .article_left .control_group .jf_protocol{
+	float: left;
+}
+article .article_container .article_left .control_group .jf_protocol .jf_protocol_check{
+	margin-right: 5px;
+    vertical-align: top;
+    top: 2px;
+    display: inline-block;
+    position: relative;
+}
+article .article_container .article_left .control_group .jf_protocol .formErrow{
+	height: 32px;
+	margin-left: 1em;
+	display: none;
+	vertical-align: top;
+	position: absolute;
+    left: 330px;
+}
+article .article_container .article_left .control_group .jf_protocol .errow_protocol{
+	display: inline-block;
+}
+article .article_container .article_left .control_group .jf_protocol span{
+	float: none;
+	margin-left: 0;
+}
+article .article_container .article_left .control_group .jf_protocol span a{
+	color: #08a0e6;
+}
+article .article_container .article_left .form_submit_box{
+	padding: 5px 0 10px;
+
+}
+article .article_container .article_left .form_submit_box .form_submit_container{
+	padding-left: 115px;
+	width: 250px;
+	height: 34px;
+}
+article .article_container .article_left .form_submit_box .form_submit_container button{
+	height: 34px;
+    font-size: 14px;
+    padding: 0 30px;
+    width: 250px;
+    color: #fff;
+    background: #fa9f08;
+    border-radius: 3px;
+    text-align: center;
+    border: 0;
+    cursor: pointer;
+}
+
+
+
+footer{
+	height: 16px;
+	padding-top: 10px;
+	color: #999;
+}
+footer P{
+	text-align: center;
+}
+footer p em{
+	font-style: normal;
+}
+
