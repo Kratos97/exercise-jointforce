@@ -1,4 +1,10 @@
+/*
+*yzh
+*2016
+*
+*/
 $(document).ready(function(){
+
 	//登陆验证2
 	$(".login_btn_border").click(function(){
 		var loginPhoneNum=localStorage.getItem("username");
