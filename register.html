@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link type="text/css" href="css/registerStyle.css" rel="stylesheet"/>
+		<script src="js/jquery-1.11.3.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/registerJS.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<header>
+			<div class="r_header_logo"></div>
+			<div class="r_header_title">
+				|  账号注册
+			</div>
+			<span>
+				已有账号，<a href="javascript:void(0);">马上登录</a>
+			</span>
+		</header>
+		<article>
+			<div class="article_container">
+				<section class="article_top">
+					<ul>
+						<li class="now">
+							<span>1</span>注册帐号
+						</li>
+						<li>
+							<span>2</span>填写基本信息
+						</li>
+					</ul>
+				</section>
+				<section class="article_left">
+					<form action="index.html" method="get" onsubmit="registerSubmit()">  <!---->
+						<div class="control_group">
+							<div class="formLaber">
+								<font>*</font>手机号
+							</div>
+							<div class="selectArea">
+								<span>中国大陆 86</span>
+								<i></i>
+							</div>
+							<input type="text" class="phoneNum" name="jf_phoneNum" id="jf_phoneNum">
+							
+							</input>
+							<div class="formErrow">
+								<em></em><div>请输入您的手机号码</div>
+							</div>
+						</div>
+						<div class="control_group">
+							<div class="formLaber">
+								<font>*</font>验证码
+							</div>
+							<input type="text" class="imgCode" id="imgCode">
+								
+							</input>
+							<span>
+								<img src="img/verifycode.jpg">
+							</span>
+							<div class="formErrow">
+								<em></em><div>为了保障您的权益，请输入验证码</div>
+							</div>
+						</div>
+						<div class="imgCode_prompt">
+							<span>
+								看不清？<a href="javascript:void(0);">换一张</a>
+							</span>
+						</div>
+						<div class="control_group">
+							<div class="formLaber">
+								<font>*</font>语音验证码
+							</div>
+							<input type="text" class="soundCode" id="soundCode">
+								
+							</input>
+							<span class="getSoundCode">
+								获取语音验证码
+							</span>
+							<div class="formErrow">
+								<em></em><div>请输入您接听到的语音验证码</div>
+							</div>
+						</div>
+						<div class="control_group" style="height:64px;">
+							<div class="formLaber">
+								<font>*</font>密码
+							</div>
+							<input type="password" class="password" name="jf_password" id="jf_password">
+								
+							</input>
+							<div class="formErrow">
+								<em></em><div>请设置您的密码</div>
+							</div>
+							<div class="height8 clear">
+								
+							</div>
+							<div class="password_prompt">
+								<ul class="password_level">
+									<li >
+										弱
+									</li>
+									<li>中</li>
+									<li>强</li>
+								</ul>
+								<span>安全程度：</span>
+							</div>
+						</div>
+						<div class="clear"></div>
+						<div class="control_group">
+							<div class="formLaber">
+								<font>*</font>确认密码
+							</div>
+							<input type="password" class="password" name="jf_password" id="rePassword">
+								
+							</input>
+							<div class="formErrow">
+								<em></em><div>请输入确认密码</div>
+							</div>
+						</div>
+						<div class="control_group">
+							<div class="formLaber">
+								<font></font>
+							</div>
+							<div class="jf_protocol">
+								<input type="checkbox" class="jf_protocol_check" name="jf_check" id="jf_protocol" checked=""></input>
+								<div class="formErrow">
+									<em></em><div>请接受使用协议</div>
+								</div>
+								<span>我已阅读并接受<a href="javascript:void(0);">《解放号使用协议》</a></span>
+							</div>
+						</div>
+						<div class="form_submit_box">
+							<div class="form_submit_container">
+								<button class="register_btn" type="submit">
+									下一步
+								</button>
+							</div>
+
+						</div>
+					</form>
+				</section>
+			</div>
+		</article>
+		<footer>
+			<p>
+				Copyright © 2013-<em>2016</em> 
+				北京掌中无限信息技术有限公司 京ICP证041626号 | 京ICP备09083730号-8
+			</p>
+		</footer>
+	</body>
+</html>

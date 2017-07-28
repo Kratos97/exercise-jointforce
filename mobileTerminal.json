@@ -1,0 +1,7 @@
+[
+	{"title":"快速发包","desc":"快速发布需求到解放号需求市场","src":"img/publish_req.png"},
+	{"title":"快速抢单","desc":"手机接单，随时随地发现赚钱机会；JF移动端不放过任何一个适合你的订单，第一时间推荐给你","src":"img/requirement.png"},
+	{"title":"线上作业环境","desc":"以沟通协作作为底座的作业平台，无论使用电脑还是手机，都能通过主要阶段关键点展开协作，<br/>为项目交付保驾护航","src":"img/contacts.png","cellDesc":"方便查看历史订单数据，随时掌握订单执行过程"},
+	{"title":"音视频会议","desc":"在订单执行中可快速发起会议，组织人员进行沟通，支持移动端和web端互通","src":"img/meeting_av.png"},
+	{"title":"杰微刊","desc":"程序员自己的刊物，随时随地用知识武装自己，提升竞争力","src":"img/magazine.png","cellDesc":"超值的“技术精粹周刊”"}
+]
